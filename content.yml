@@ -4,6 +4,10 @@ welcome: # this is the #welcome bloc referenced in index.js
       - Hey there!
       - Hello {{user.first_name}}
       - Good day :)
+    text: How are you doing? Please use the buttons below!
+    quick_replies:
+      - <QR_GOOD> Good!
+      - <QR_BAD> Bad 😔
   - text: This is just a regular Hello World, I don't do anything ;)
     typing: 2s
   - text: Make sure to check out the 'index.js' file to see how I work
