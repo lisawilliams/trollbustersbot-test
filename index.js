@@ -3,7 +3,7 @@
 
   This is the programmatic entry point of your bot.
   Your bot's logic resides here.
-  
+
   Here's the next steps for you:
   1. Read this file to understand how this simple bot works
   2. Read the `content.yml` file to understand how messages are sent
@@ -23,7 +23,19 @@ module.exports = function(bp) {
   // Listens for a first message (this is a Regex)
   // GET_STARTED is the first message you get on Facebook Messenger
   bp.hear(/GET_STARTED|hello|hi|test|hey|holla/i, (event, next) => {
-    event.reply('#welcome') // See the file `content.yml` to see the block
+  //   event.reply('#welcome') // See the file `content.yml` to see the block
+  // })
+  //
+  // bp.hear('MENU_SEND_EX_02', (event, next) => {
+    event.reply('#textWithQuickReplies')
+  })
+
+  bp.hear('TEXTWITHQUICKREPLIES.B1', (event, next) => {
+    event.reply('#textWithQuickReplies_reply', { button: 'Button 1' })
+  })
+
+  bp.hear('TEXTWITHQUICKREPLIES.B2', (event, next) => {
+    event.reply('#textWithQuickReplies_reply', { button: 'Button 2' })
   })
 
   // You can also pass a matcher object to better filter events
@@ -36,4 +48,12 @@ module.exports = function(bp) {
       reason: 'unknown'
     })
   })
+
+// let's test out Quick Replies
+
+
+
+
+
+
 }
