@@ -1,16 +1,18 @@
 welcome: # this is the #welcome bloc referenced in index.js
-  - typing: true
-    text: # Picks one randomly
-      - Hey there!
-      - Hello {{user.first_name}}
-      - Good day :)
-  - text: This is just a regular Hello World, I don't do anything ;)
-    typing: 2s
-  - text: Make sure to check out the 'index.js' file to see how I work
-    typing: true
-  - wait: 5s
-  - text: You can say goodbye now
-    typing: 1s
+  # - typing: true
+  #   text: # Picks one randomly
+  #     - Hey there!
+  #     - Hello {{user.first_name}}
+  #     - Good day :)
+  # - text: This is just a regular Hello World, I don't do anything ;)
+  #   typing: 2s
+  # - text: Make sure to check out the 'index.js' file to see how I work
+  #   typing: true
+  # - wait: 5s
+  # - text: You can say goodbye now
+  #   typing: 1s
+
+
 
 textWithQuickReplies:
   - text: Are you being harassed online?
@@ -21,10 +23,16 @@ textWithQuickReplies:
 textWithQuickReplies_reply:
   - You pressed button '{{button}}'
 
+# test of rivescript markup
++ hello
+- Hi, you have successfully done "Hello World." 🎉
+
 goodbye:
   - text: You are leaving because of reason {{reason}}
     typing: true
   - Hope to see you back again soon! # if no other properties, you can just send a strings
+
+
 
 
       # Things to do for the Trollbusters bot
@@ -37,7 +45,7 @@ goodbye:
       #         What is happening right now?
       #
       #         [ ] Q2A: Someone is attacking my website
-      #                     [ ] Q2AY: 
+      #                     [ ] Q2AY:
       #                     [ ] Q2AN: Okay. Let's move on to the next question. --> [Q2C]
       #         [ ] Q2B: Someone is doxing me
       #                     [ ] Q2BY:
