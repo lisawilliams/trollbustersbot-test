@@ -25,3 +25,51 @@ goodbye:
   - text: You are leaving because of reason {{reason}}
     typing: true
   - Hope to see you back again soon! # if no other properties, you can just send a strings
+
+
+      # Things to do for the Trollbusters bot
+      # [ ] Intro text
+      # [ ] Q1: Are you being harassed?
+      #       [ ] Q1Y: Yes ->>> Q2
+      #       [ ] Q1N: No ->>> Q3
+      #
+      # [ ] Q2: I'm sorry to hear that. Let's see if we can get you some options.
+      #         What is happening right now?
+      #
+      #         [ ] Q2A: Someone is attacking my website
+      #                     [ ] Q2AY: 
+      #                     [ ] Q2AN: Okay. Let's move on to the next question. --> [Q2C]
+      #         [ ] Q2B: Someone is doxing me
+      #                     [ ] Q2BY:
+      #                     [ ] Q2BN: Okay. Let's move on to the next question. --> [Q2D]
+      #         [ ] Q2C: Someone is posting sexually explicit photos of me without my consent
+      #                     [ ] Q2CY:
+      #                     [ ] Q2CN: Okay. Let's move on to the next question. --> [Q2E]
+      #         [ ] Q2D: Someone has posted an implied threat
+      #                     [ ] Q2AY:
+      #                     [ ] Q2AN: Okay. Let's move on to the next question. --> [Q2F]
+      #         [ ] Q2E: Someone has posted an explicit threat
+      #                     [ ] Q2AY:
+      #                     [ ] Q2AN: Okay. Let's move on to the next question. --> [Q2G]
+      #         [ ] Q2F: Someone has posted an insult
+      #                     [ ] Q2AY:
+      #                     [ ] Q2AN: Okay. Let's move on to the next question. --> [Q2H]
+      #         [ ] Q2G: Someone has posted a critique
+      #                     [ ] Q2AY:
+      #                     [ ] Q2AN: Okay. Let's move on to the next question. --> [Q2I]
+      #         [ ] Q2H: Someone has posted a libelous comment
+      #                     [ ] Q2AY:
+      #                     [ ] Q2AN: Okay. Let's move on to the next question. --> [Q2I]
+      #         [ ] Q2I: Someone is impersonating my account
+      #                     [ ] Q2AY:
+      #                     [ ] Q2AN: Okay, I am glad you are not facing any of the threats above. ---> [Q2J]
+      #
+      #         [ ] Q2J:  Do you still have questions?
+      #                     [ ] Q2AY: Okay. Since your interest isn't covered by the resources I know about, it's time to get the humans involved. Please visit our Facebook page and leave a comment on our Open Question Thread.
+      #                     [ ] Q2AN: Okay. Thank you for coming by and taking an interest in responses to online harassment. Come and visit us again anytime.
+      #
+      #
+      #   [ ] Q3: I'm glad to hear that. Would you like some information about digital
+      #           hygiene that can keep you safer from attacks?
+      #             [ ] Q3Y: Yes
+      #             [ ] Q3N: Okay. Thanks for visiting and taking an interest today. Please drop by if you need us.
