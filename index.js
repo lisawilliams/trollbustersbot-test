@@ -19,6 +19,9 @@
   Our Slack Community: https://slack.botpress.io
 */
 
+const Promise = require('bluebird')
+const _ = require('lodash')
+
 module.exports = function(bp) {
   // Listens for a first message (this is a Regex)
   // GET_STARTED is the first message you get on Facebook Messenger
